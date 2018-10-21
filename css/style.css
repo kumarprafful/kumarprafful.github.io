@@ -1,0 +1,18 @@
+body{
+  background: linear-gradient(90deg, #00838f , #b0bec5 );
+  color: #ffecb3;
+}
+.container{
+    margin:10em auto;
+    height: 20em;
+    border-radius: 10px;
+}
+.text{
+  padding: 1em 0;
+}
+p a{
+  color: #9ccc65;
+}
+p a:hover{
+  color: #a5d6a7;
+}
