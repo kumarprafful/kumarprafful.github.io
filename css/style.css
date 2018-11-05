@@ -1,18 +1,33 @@
 body{
-  background: linear-gradient(90deg, #f2f2f2 , #ffffff);
-  color: #222;
+  /* background: linear-gradient(90deg, #f2f2f2 , #ffffff); */
+  background: url('../img/news.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #1a0900;
 }
 .container{
-    margin:10em auto;
+    margin:2em auto;
     height: 20em;
     border-radius: 10px;
+    font-family: 'Shadows Into Light', cursive;
+
 }
 .text{
   padding: 1em 0;
 }
-p a{
+h4 a{
   color: #9ccc65;
 }
-p a:hover{
+h4 a:hover{
   color: #a5d6a7;
+}
+.title{
+  font-family: 'Spicy Rice', cursive;
+  font-size: 6em;
+  letter-spacing: .05em;
+  border-bottom: 5px solid #662200;
+  display: inline-flex;
+  border-radius: 20px;
+}
+.header{
 }
